@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* --------------
+    Общие стили
+-----------------*/
+body {
+    margin: 0;
+    color: #DEDEDE;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    background-color: #202020;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #DEDEDE;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+/* --------------
+    Header
+-----------------*/
+.header {
+    padding: 20px 0;
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(10px);
+    position: relative; 
+    z-index: 2;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    gap: 60px;
+}
+
+.header__link {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* --------------
+    Welcome
+-----------------*/
+.welcome {
+    margin-top: -87px; 
+    width: 100%;
+    height: 640px; 
+    overflow: hidden;
+}
+
+.welcome__desc {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome__desc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    display: block;
+}
+
+/* --------------
+    Project Section
+-----------------*/
+.project {
+    margin-bottom: 120px;
+}
+
+.project__label {
+    margin-top: 125px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.project__title {
+    margin-bottom: 112px;
+    width: 500px; 
+    font-weight: 700;
+    font-size: 54px; 
+    line-height: 1.19;
+}
+
+.project__info {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 120px; 
+    max-width: 900px;
+    margin-bottom: 290px;
+}
+
+.project__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project__item p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.project__item h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+/* --------------
+    Meta & Links
+-----------------*/
+.project__meta {
+    margin-bottom: 0;
+}
+
+.meta__label {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.meta__value {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.meta__value2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.69;
+    margin-bottom: 88px;
+}
+
+.project__link {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+
+    opacity: 0.7;
+}
+
+.project__banner {
+    width: 100%;
+    height: 769px;
+    overflow: hidden;
+    margin-bottom: 234px;
+}
+
+.project__banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
+    display: block;
+}
+
+
+/* --------------
+    Solution
+-----------------*/
+
+
+.solution {
+
+}
+
+.container {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.solution__label {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 12px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.solution__value {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.69;
+    color: #FFFFFF;
+}
+
+.solution1__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.solution1__row--reverse {
+    flex-direction: row-reverse;
+}
+
+.solution {
+    margin-bottom: 275px;
+}
+
+.solution1__row--top {
+    align-items: flex-start;
+}
+
+.solution1__row--top .solution__content {
+    padding-top: 160px; 
+}
+
+/* --------------
+    Conclusion
+-----------------*/
+
+.conclusion {
+
+}
+
+.conclusion__info {
+
+}
+
+.conclusion__label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    opacity: 0.7; 
+}
+
+.conclusion__value {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.69;
+    margin-bottom: 120px;
+}
+
+.conclusion__img {
+    margin-bottom: 155px;
+}
+
+/* --------------
+    Next__Case Section
+-----------------*/
+
+.next__case {
+    padding: 160px 0; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container {
+}
+.next-case__link {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.69;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+    text-decoration-thickness: 2px;
+}
+
+/* --------------
+    Footer
+-----------------*/
+
+.footer {
+    padding: 40px 0; /* Увеличим отступы, чтобы было как в макете */
+    border-top: 1px solid #696969;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.footer__copy {
+    line-height: 2.25;
+    color: #959595;
+}
+
+.footer__copy span {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+}
+
+.socials img {
+    display: block;
+    width: 24px;
+    height: auto;
+}
